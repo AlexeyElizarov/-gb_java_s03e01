@@ -7,7 +7,7 @@ public class Box<T extends Fruit> implements Comparable<Box<?>>{
     private List<T> contents;
 
     public Box() {
-        this.contents = new ArrayList<>();;
+        this.contents = new ArrayList<>();
     }
 
     public List<T> getContents() {
